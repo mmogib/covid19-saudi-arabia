@@ -1,5 +1,5 @@
 {
-  "name": "express-rest-api-ts-starter",
+  "name": "covid19",
   "version": "1.0.0",
   "description": "",
   "main": "./src/main.ts",
@@ -24,6 +24,8 @@
     "@types/express": "^4.17.6",
     "@types/helmet": "0.0.47",
     "@types/morgan": "^1.9.0",
+    "@types/node-fetch": "^2.5.7",
+    "@types/pug": "^2.0.4",
     "eslint": "^7.0.0",
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.3",
@@ -33,11 +35,15 @@
     "typescript": "^3.9.2"
   },
   "dependencies": {
+    "@types/serve-favicon": "^2.5.0",
     "cors": "^2.8.5",
     "express": "^4.17.1",
     "express-jwt": "^5.3.3",
     "helmet": "^3.22.0",
     "jwks-rsa": "^1.8.0",
-    "morgan": "^1.10.0"
+    "morgan": "^1.10.0",
+    "node-fetch": "^2.6.0",
+    "pug": "^2.0.4",
+    "serve-favicon": "^2.5.0"
   }
 }
